@@ -7,6 +7,9 @@ class Barang extends CI_Controller {
     public function __construct() {
         parent::__construct();
 		
+		// Function untuk pemanggilan helper
+		$this->load->helper('html');
+
 		// Function untuk pemanggilan model
 		$this->load->model("Barang_model");
     }

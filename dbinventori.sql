@@ -21,7 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `dbinventori`
 --
-
+CREATE DATABASE IF NOT EXISTS `dbinventori`;
+USE `dbinventori`;
 -- --------------------------------------------------------
 
 --
